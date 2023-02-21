@@ -37,6 +37,14 @@
     <key>ru</key>
     <value>Список жанров</value>
   </listPresentation>
+  <extendedListPresentation>
+    <key>ru</key>
+    <value>Библиотека жанров</value>
+  </extendedListPresentation>
+  <explanation>
+    <key>ru</key>
+    <value>Библиотека наименований жанров с их описанием</value>
+  </explanation>
   <hierarchical>true</hierarchical>
   <levelCount>2</levelCount>
   <foldersOnTop>true</foldersOnTop>
