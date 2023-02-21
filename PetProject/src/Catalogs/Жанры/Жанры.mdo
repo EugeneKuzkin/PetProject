@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="4bf6d1ed-832c-4496-a4e7-c9653c526438">
+  <producedTypes>
+    <objectType typeId="950d2e72-bb32-4c76-be71-5a53a05ed302" valueTypeId="20c1bfdd-e44a-4ba9-89ee-2a8ad27dafd9"/>
+    <refType typeId="93158344-c243-4b98-8950-1ee81f9d7384" valueTypeId="21f9fb32-d999-488e-a1fb-c0eb6989587c"/>
+    <selectionType typeId="072a3527-d1b6-4a22-ae88-d67f16e3e17a" valueTypeId="5a0bb22c-4802-41cf-b40e-31427b736569"/>
+    <listType typeId="85c2c765-bf3e-433e-b760-43f8534fe5ab" valueTypeId="31637355-3d60-4934-92c8-f966c85af4f5"/>
+    <managerType typeId="6cc59b9b-47cc-4f0b-b6ad-6ae4ad7c72fd" valueTypeId="cc8a4cc9-69f0-4854-938d-b34a3c96f88e"/>
+  </producedTypes>
+  <name>Жанры</name>
+  <synonym>
+    <key>ru</key>
+    <value>Жанры</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.Жанры.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.Жанры.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Parent</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вид жанра</value>
+    </synonym>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fullTextSearch>Use</fullTextSearch>
+  </standardAttributes>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>ru</key>
+    <value>Жанр</value>
+  </objectPresentation>
+  <listPresentation>
+    <key>ru</key>
+    <value>Список жанров</value>
+  </listPresentation>
+  <hierarchical>true</hierarchical>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <attributes uuid="6822117a-0f1d-431e-a9aa-39c90db5658e">
+    <name>Описание</name>
+    <synonym>
+      <key>ru</key>
+      <value>Описание</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>500</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+</mdclass:Catalog>
